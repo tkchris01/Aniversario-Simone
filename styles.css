@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    margin-top: 20px;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: auto;
+}
+
+.final-message {
+    margin-top: 30px;
+    font-size: 2em;
+    color: #f0f0f0; /* Rosa forte para destacar */
+}
+
+.signature {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #dfddde; /* Rosa forte para combinar */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    .final-message {
+        font-size: 1.8em;
+    }
+
+    .signature {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .final-message {
+        font-size: 1.5em;
+    }
+
+    .signature {
+        font-size: 1em;
+    }
+}
